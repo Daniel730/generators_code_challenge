@@ -23,5 +23,9 @@ class HomeController extends Controller
      */
     public function index()
     {
+        return view('home', [
+            'generators' => Generator::with('state')->get(),
+            'states' => State::get()
+        ]);
     }
 }
