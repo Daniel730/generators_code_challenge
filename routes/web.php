@@ -1,7 +1,6 @@
 <?php
 
 use App\Http\Controllers\HomeController;
-use App\Http\Controllers\InspectionController;
 use App\Http\Controllers\GeneratorController;
 use Illuminate\Support\Facades\Route;
 
