@@ -14,4 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::group(['middleware' => 'api'], function () {
+    Route::get('/', function () {
+        return json_encode([
+            'Welcome' => [
+                'author' => "Daniel Silva",
+                "email" => "daniel.730@outlook.com",
+                "github" => "https://github.com/Daniel730"
+            ]
+        ]);
+    });
 });
