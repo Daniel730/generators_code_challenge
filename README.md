@@ -1,26 +1,28 @@
 ## The task
 
-Pretende-se que seja implementada uma aplicação web, minimalista, para gestão de
-geradores elétricos a gasóleo. A aplicação não precisa:
-• de autenticação
-• de validação de todos os campos requeridos, exceto os definidos nos próximos
+Pretende-se que seja implementada uma aplicação web, minimalista, para gestão de geradores elétricos a gasóleo. 
+A aplicação não precisa:
+
+-   de autenticação
+-   de validação de todos os campos requeridos, exceto os definidos nos próximos
 pontos
-• ter uma apresentação espetacular, mas deverá ser minimamente bem formatada
-Os geradores elétricos são identificados unicamente por um código interno com a
-seguinte nomenclatura:
-• RYYYYMMNNNN
-Em que YYYY é o ano de entrada no parque, MM o mês de entrada no parque, e NNN um
-número sequencial.
-Outros dados obrigatórios dos geradores, que são inseridos manualmente pelo utilizador,
-são:
-• Marca
-• Modelo
-Podem existir outros campos não obrigatórios, mas que são opcionais para esta primeira
-versão da aplicação, e são opcionais para o desafio, podendo o desafiado optar por
-adicionar mais campos. O desafiado, pode criar os campos que considere necessários para
-implementar as funcionalidades pretendidas.
+-   ter uma apresentação espetacular, mas deverá ser minimamente bem formatada
+
+Os geradores elétricos são identificados unicamente por um código interno com a seguinte nomenclatura:
+
+-   RYYYYMMNNNN
+  
+Em que YYYY é o ano de entrada no parque, MM o mês de entrada no parque, e NNN um número sequencial.
+
+Outros dados obrigatórios dos geradores, que são inseridos manualmente pelo utilizador, são:
+
+-    Marca
+-    Modelo
+
+Podem existir outros campos não obrigatórios, mas que são opcionais para esta primeira versão da aplicação, e são opcionais para o desafio, podendo o desafiado optar por adicionar mais campos. O desafiado, pode criar os campos que considere necessários para implementar as funcionalidades pretendidas.
+
 Um gerador elétrico também tem de estar num dos estados, apresentados de seguida:
-• Novo; Em Stock; Avariado; Alugado; Abatido.
+-  Novo; Em Stock; Avariado; Alugado; Abatido.
 
 ## Setting Everything Up
 
